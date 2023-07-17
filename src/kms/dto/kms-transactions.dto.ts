@@ -3,6 +3,7 @@ import { IsEnum, IsString, IsNotEmpty, IsNumberString, IsOptional } from 'class-
 import { Protocol } from 'cryptum-sdk/dist/src/services/blockchain/constants';
 import { TrustlineProtocol } from '../../cryptum/interfaces/protocols.interface';
 import { EthFee } from '../../transaction/dto/create-transaction.dto';
+import { Method } from 'axios';
 
 export class KmsCreateTransactionDto {
   @ApiProperty()
@@ -193,3 +194,11 @@ export class KmsSmartContractDeployDto extends KmsCreateTransferTransactionDto {
   fee?: EthFee;
   feeCurrency?: string;
 }
+
+/*export class KmsController extends SetTrustline{
+  protocol,
+  method,
+  url,
+  body,
+  config
+}*/

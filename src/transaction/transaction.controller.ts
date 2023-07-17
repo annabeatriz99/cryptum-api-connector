@@ -85,10 +85,6 @@ export class TransactionController {
   createAvaxCChainTransferTransaction(@Body() body: CreateEthereumTransferTransactionDto) {
     return this.cryptumService.createAvaxCChainTransferTransaction(body);
   }
-  @Post('transfer/chiliz')
-  createChilizTransferTransaction(@Body() body: CreateEthereumTransferTransactionDto) {
-    return this.cryptumService.createChilizTransferTransaction(body);
-  }
   @Post('transfer/hathor')
   createHathorTransferTransaction(@Body() body: CreateHathorTransferTransactionDto) {
     return this.cryptumService.createHathorTransferTransaction(body);

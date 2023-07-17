@@ -10,7 +10,6 @@ export enum Protocol {
   SOLANA = 'SOLANA',
   AVAXCCHAIN = 'AVAXCCHAIN',
   POLYGON = 'POLYGON',
-  CHILIZ = 'CHILIZ'
 }
 
 export enum TrustlineProtocol {

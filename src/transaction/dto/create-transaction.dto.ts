@@ -206,3 +206,7 @@ export class CreateSolanaTransferTransactionDto extends OmitType(CreateTransferT
   @IsNotEmpty()
   destination: string;
 }
+
+/*export class  GetNftControllerInstance extends OmitType ( GetNftControllerInstance,[
+ protocol: Protocol;
+])*/ //verificar

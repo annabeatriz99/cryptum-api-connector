@@ -79,4 +79,5 @@ export class KmsController {
   smartContractDeployTransaction(@Body() body: KmsSmartContractDeployDto) {
     return this.cryptumService.sdk.kms.deploySmartContractTransaction(body);
   }
+
 }
