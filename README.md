@@ -1,6 +1,6 @@
 # Cryptum API Connector
 
-API service to facilitate integration with Cryptum SDK and blockchain APIs.
+Our API is documented using the Swagger-UI embedded directly within our service. This allows developers to access the documentation and test the API without leaving our application.
 
 ## Technologies
 
